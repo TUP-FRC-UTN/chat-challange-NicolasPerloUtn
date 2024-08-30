@@ -1,0 +1,23 @@
+.principal {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedorChat {
+    width: 70%;
+}
+
+.contenedorForms {
+    display: flex;
+    width: 800px;
+    height: 300px;
+    justify-content: space-around;
+}
+
+.contenedorMensajes {
+    border: 1px solid black;
+    height: 100px;
+}
