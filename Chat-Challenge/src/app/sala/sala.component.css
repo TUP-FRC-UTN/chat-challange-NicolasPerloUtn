@@ -1,0 +1,15 @@
+.principal {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+}
+
+.contenedorForms {
+    display: flex;
+    width: 800px;
+    height: 200px;
+    justify-content: space-around;
+}

@@ -1,0 +1,13 @@
+<!-- <app-mensaje-reutilizable [nombreUsuario]="nombre"></app-mensaje-reutilizable> -->
+<div class="card">
+  <div class="card-header">
+    <p>Usuario: {{ nombreUsuario }}</p>
+  </div>
+  <div class="card-body">
+    <div class="mb-3 d-flex flex-column">
+      <label for="exampleInputEmail1" class="form-label">Mensaje</label>
+      <textarea [(ngModel)]="texto"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary" (click)="enviarMensaje()">Guardar</button>
+  </div>
+</div>
