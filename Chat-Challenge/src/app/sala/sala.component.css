@@ -4,20 +4,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-.contenedorChat {
-    width: 70%;
+    gap: 90px;
 }
 
 .contenedorForms {
     display: flex;
     width: 800px;
-    height: 300px;
+    height: 200px;
     justify-content: space-around;
-}
-
-.contenedorMensajes {
-    border: 1px solid black;
-    height: 100px;
 }

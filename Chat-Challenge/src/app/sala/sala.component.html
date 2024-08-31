@@ -1,7 +1,9 @@
 <main class="principal">
-    <div class="contenedorChat">
-        <p class="bg-light p-3">Sala de chat</p>
-        <div class="contenedorMensajes overflow-y-auto">
+    <div class="card contenedorForms">
+        <div class="card-header">
+            <p class="bg-light">Sala de chat</p>
+        </div>
+        <div class="card-body overflow-y-auto">
             @for (mensaje of listaMensajes; track mensaje) {
                 <p class="mensaje"> {{ mensaje }} </p>
             }   
@@ -11,4 +13,4 @@
         <app-mensaje-hermano (mensaje)="recibirMensaje($event)" class="w-50"></app-mensaje-hermano>
         <app-mensaje-usuario (mensaje)="recibirMensaje($event)" class="w-50"></app-mensaje-usuario>
     </div>
-</main> 
+</main>
